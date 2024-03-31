@@ -3,7 +3,7 @@ import React, {useState} from "react";
 import { motion } from "framer-motion";
 import { useRef } from "react";
 
-const page = () =>{
+const Page = () =>{
   const [title, settitle] = useState("")
   const [desc, setdesc] = useState("")
   const [mainTask, setMaintask] = useState([]);
